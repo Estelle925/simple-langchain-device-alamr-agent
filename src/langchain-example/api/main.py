@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List, Dict, Any
+from typing import Dict, Any
 import uvicorn
 from ..agents.alert_agent import AlertAgent
 from ..data.mock_data import generate_mock_dataset

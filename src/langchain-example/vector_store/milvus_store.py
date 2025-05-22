@@ -1,8 +1,7 @@
 from typing import List, Dict, Any
 from pymilvus import connections, Collection, FieldSchema, CollectionSchema, DataType, utility
-from langchain.vectorstores import Milvus
 from langchain.embeddings import OllamaEmbeddings
-from ..config.settings import (
+from src.config.settings import (
     MILVUS_HOST,
     MILVUS_PORT,
     COLLECTION_NAME,

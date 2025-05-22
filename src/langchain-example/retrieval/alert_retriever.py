@@ -4,7 +4,7 @@ from langchain.storage import InMemoryStore
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OllamaEmbeddings
 from langchain.vectorstores import Milvus
-from ..config.settings import (
+from src.config.settings import (
     OLLAMA_BASE_URL,
     EMBEDDING_MODEL,
     MILVUS_HOST,
